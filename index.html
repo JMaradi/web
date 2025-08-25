@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarea 5 - BEM y FlexBox</title>
+
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <!-- Ejercicio 1 -->
+  <section class="ejercicio ejercicio--uno">
+    <h2 class="ejercicio__titulo">Ejercicio 1 - Cajitas Verticales</h2>
+    <div class="cajitas">
+      <div class="cajitas__item">Item 1</div>
+      <div class="cajitas__item">Item 2</div>
+      <div class="cajitas__item">Item 3</div>
+      <div class="cajitas__item">Item 4</div>
+    </div>
+  </section>
+
+  <!-- Ejercicio 2 -->
+  <section class="ejercicio ejercicio--dos">
+    <h2 class="ejercicio__titulo">Ejercicio 2 - 2 arriba y 3 abajo</h2>
+    <div class="gridcajitas">
+      <div class="gridcajitas__fila">
+        <div class="gridcajitas__item">Item 1</div>
+        <div class="gridcajitas__item">Item 2</div>
+      </div>
+      <div class="gridcajitas__fila">
+        <div class="gridcajitas__item">Item 3</div>
+        <div class="gridcajitas__item">Item 4</div>
+        <div class="gridcajitas__item">Item 5</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ejercicio 3 -->
+  <section class="ejercicio ejercicio--tres">
+    <h2 class="ejercicio__titulo">Ejercicio 3 - Dos filas de cajitas</h2>
+    <div class="dosfilas">
+      <div class="dosfilas__fila dosfilas__fila--grande">
+        <div class="dosfilas__item">Item 1</div>
+        <div class="dosfilas__item">Item 2</div>
+      </div>
+      <div class="dosfilas__fila dosfilas__fila--media">
+        <div class="dosfilas__item">Item 3</div>
+        <div class="dosfilas__item">Item 4</div>
+        <div class="dosfilas__item">Item 5</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ejercicio 4 -->
+  <section class="ejercicio ejercicio--cuatro">
+    <h2 class="ejercicio__titulo">Ejercicio 4 - Cajitas con números y colores</h2>
+    <div class="numeros">
+      <div class="numeros__fila numeros__fila--tres">
+        <div class="numeros__item">1</div>
+        <div class="numeros__item">2</div>
+        <div class="numeros__item">3</div>
+      </div>
+      <div class="numeros__fila numeros__fila--dos">
+        <div class="numeros__item">4</div>
+        <div class="numeros__item">5</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ejercicio 5 -->
+  <section class="ejercicio ejercicio--cinco">
+    <h2 class="ejercicio__titulo">Ejercicio 5 - Cajitas horizontales con tamaños distintos</h2>
+    <div class="cajitas5">
+      <div class="cajitas5__item cajitas5__item--rectangular1">1</div>
+      <div class="cajitas5__item cajitas5__item--cuadrada1">2</div>
+      <div class="cajitas5__item cajitas5__item--rectangular2">3</div>
+      <div class="cajitas5__item cajitas5__item--cuadrada2">4</div>
+    </div>
+  </section>
+
+  <!-- Ejercicio 6 -->
+  <section class="ejercicio ejercicio--seis">
+    <h2 class="ejercicio__titulo">Ejercicio 6 - Productos supermercado</h2>
+    <div class="productos">
+      <div class="productos__fila">
+        <div class="producto">
+          <h3 class="producto__nombre">Salsa de Tomate</h3>
+          <p class="producto__precio">L. 25</p>
+          <input type="number" class="producto__cantidad" min="1" value="1">
+          <button class="producto__carrito">🛒</button>
+        </div>
+        <div class="producto">
+          <h3 class="producto__nombre">Leche</h3>
+          <p class="producto__precio">L. 30</p>
+          <input type="number" class="producto__cantidad" min="1" value="1">
+          <button class="producto__carrito">🛒</button>
+        </div>
+        <div class="producto">
+          <h3 class="producto__nombre">Pan</h3>
+          <p class="producto__precio">L. 15</p>
+          <input type="number" class="producto__cantidad" min="1" value="1">
+          <button class="producto__carrito">🛒</button>
+        </div>
+        <div class="producto">
+          <h3 class="producto__nombre">Arroz</h3>
+          <p class="producto__precio">L. 40</p>
+          <input type="number" class="producto__cantidad" min="1" value="1">
+          <button class="producto__carrito">🛒</button>
+        </div>
+        <div class="producto">
+          <h3 class="producto__nombre">Aceite</h3>
+          <p class="producto__precio">L. 50</p>
+          <input type="number" class="producto__cantidad" min="1" value="1">
+          <button class="producto__carrito">🛒</button>
+        </div>
+      </div>
+
+      <div class="productos__fila">
+        <div class="producto">
+          <h3 class="producto__nombre">Queso</h3>
+          <p class="producto__precio">L. 60</p>
+          <input type="number" class="producto__cantidad" min="1" value="1">
+          <button class="producto__carrito">🛒</button>
+        </div>
+        <div class="producto">
+          <h3 class="producto__nombre">Mantequilla</h3>
+          <p class="producto__precio">L. 45</p>
+          <input type="number" class="producto__cantidad" min="1" value="1">
+          <button class="producto__carrito">🛒</button>
+        </div>
+        <div class="producto">
+          <h3 class="producto__nombre">Tomate</h3>
+          <p class="producto__precio">L. 20</p>
+          <input type="number" class="producto__cantidad" min="1" value="1">
+          <button class="producto__carrito">🛒</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
